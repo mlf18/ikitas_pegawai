@@ -8,4 +8,5 @@ class Backlog extends Model
 {
     // //
     // protected $timestamps = false;
+    protected $fillable = ['nama','project_id'];
 }
