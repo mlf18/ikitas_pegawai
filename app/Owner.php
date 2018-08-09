@@ -9,4 +9,8 @@ class Owner extends Model
     //
     protected $fillable = ['nama'];
     protected $timestamps = false;
+
+    public function project(){
+        return $this->hasMany('App\Owner');
+    }
 }
